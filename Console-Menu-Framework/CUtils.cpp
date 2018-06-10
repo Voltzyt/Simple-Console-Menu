@@ -11,7 +11,7 @@ bool CUtils::GetKeyPress(int vkey)
 		return false;
 }
 
-void CUtils::ClearConsole() /* Could make a better function for this instead of using system*/
+void CUtils::ClearConsole() /* Could make a better function for this instead of using system */
 {
 	system("cls");
 }
