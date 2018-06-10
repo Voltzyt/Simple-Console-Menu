@@ -5,7 +5,7 @@
 
 /* BASE */
 void COption::Draw(bool isSelected) {}
-bool COption::Input(bool isSelected) { return true; }
+bool COption::Input(bool isSelected) { return false; }
 
 
 
