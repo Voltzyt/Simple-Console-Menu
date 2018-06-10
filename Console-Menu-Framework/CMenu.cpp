@@ -47,7 +47,7 @@ void CMenu::Input()
 		if ((*i)->Input(isSelected))
 			Update();
 	}
-	Sleep(150);
+	Sleep(100);
 }
 
 void CMenu::AddOption(COption* option)
